@@ -8,3 +8,7 @@ This project is a command line interface (CLI) version of the Git version contro
 - git merge: Merge two branches
 
 Gitlet metadata is persisted in a hidden .gitlet folder. See the [design documentation](gitlet-design.md) for more details on the implementation.
+
+## Usage
+
+java gitlet.Main ARGS, where ARGS contains [COMMAND] [OPERAND] ....
